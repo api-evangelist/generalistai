@@ -1,21 +1,65 @@
 aid: generalistai
-name: Generalistai
-description: 'Generalistai is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+name: Generalist AI
+description: >-
+  Generalist AI is a frontier AI research and product company founded in 2024 that is building
+  general intelligence for the physical world. Rather than manufacturing robots, Generalist builds
+  the embodied foundation models — the "brain" — that run across many robot types and hardware
+  configurations, with an emphasis on dexterity and autonomy. Its founding team of researchers,
+  roboticists, and operators comes from Google DeepMind, Boston Dynamics, and OpenAI, with prior work
+  on PaLM-E, RT-2, Gemini Robotics, Atlas, Spot, and the scaling of large language models. The
+  company's GEN-1 model (April 2026) is described as the first general-purpose model to reach mastery
+  of simple physical tasks, running with full autonomy. Generalist operates from the Bay Area
+  (San Mateo / San Francisco) and Boston, and has raised more than $500M — including a $400M round at
+  a roughly $2B valuation backed by Nvidia, Bezos Expeditions, Radical Ventures, 8VC, Union Square
+  Ventures, Norwest Venture Partners, Hanabi Capital, and boldstart ventures. Generalist AI currently
+  publishes no public API or developer program; this profile captures its company identity and web
+  presence for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/generalistai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://generalistai.com/assets/images/generalist-og-image.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - norwest-venture-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: portfolio-lead-enriched
+x-founded: '2024'
+x-headquarters: San Mateo, California; Boston, Massachusetts
+x-founders:
+- Pete Florence
+- Andy Zeng
+- Andrew Barry
+x-investors:
+- Nvidia
+- Bezos Expeditions
+- Radical Ventures
+- 8VC
+- Union Square Ventures
+- Norwest Venture Partners
+- Hanabi Capital
+- boldstart ventures
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Artificial Intelligence
+- Robotics
+- Foundation Models
+- Physical AI
+- Embodied AI
+- Machine Learning
+- Research
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +69,24 @@ maintainers:
 common:
 - type: Website
   url: https://generalistai.com
+- type: Blog
+  url: https://generalistai.com/blog
+- type: About
+  url: https://generalistai.com/about
+- type: Careers
+  url: https://generalistai.com/careers
+- type: Contact
+  url: https://generalistai.com/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/generalistai
+- type: X
+  url: https://x.com/GeneralistAI
+- type: YouTube
+  url: https://www.youtube.com/@GeneralistAI
+- type: DomainSecurity
+  url: security/generalistai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
